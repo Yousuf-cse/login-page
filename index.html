@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Login Page</title>
+  </head>
+  <body>
+    <div class="log-wrap">
+      <form class="for-data">
+        <h2>Login</h2>
+        <div class="data-batch">
+          <input type="text" name="User-login" id="user-login" autocomplete="off" required>
+          <label for="user-login">User Name</label>
+        </div>
+        <div class="data-batch">
+          <input type="password" name="user-password" id="user-password" required>
+          <label for="user-password">Password</label>
+        </div>
+        <input type="submit" value="Login" class="abide-by-button">
+        <a href="#forgot-password" class="forgot-password">Forgot Password?</a>
+      </form>
+  
+      <div id="forgot-password">
+        <form action="" class="for-data">
+          <a href="#" class="close">&times;</a>
+          <h2>Reset Password</h2>
+          <div class="data-batch">
+            <input type="email" name="email" id="email" required>
+            <label for="email">Email</label>
+          </div>
+          <input type="submit" value="submit" class="abide-by-button">
+        </form>
+      </div>
+    </div>
+  </body>
+  </html>
